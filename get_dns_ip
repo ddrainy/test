@@ -1,0 +1,7 @@
+# test
+dnsIP = []
+for line in open("resov.txt"):
+    if 'nameserver' in line:
+        dnsIP.append(line.split()[1])
+print dnsIP[0]
+print dnsIP[1]
