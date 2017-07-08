@@ -18,7 +18,7 @@ import netifaces
 #print_function在该程序没有用到
 #locale本程序设置编码
 #os sys系统环境相关
-#re正则
+#re 正则
 #subprocess调用shell
 #strip删除字符串头尾指定的字符
 #netifaces调用网卡信息
