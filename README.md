@@ -13,4 +13,5 @@ class Sample:
         return bar + 10
 
 with Sample() as sample:
+
     sample.do_something()
